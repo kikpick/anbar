@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Sticky Expanding Sidebar Navigation Plugin Example</title>
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="/style/ss-menu.css" />
+
+</head>
+
+<body>
+  <nav class="ss-menu ">
+    <ul>
+      <li><a href="#1"><i class="bi bi-speedometer2"></i>داشبورد</a></li>
+      <li><a href="#1"><i class="bi bi-folder-plus"></i> ارشیو انبار کالا</a></li>
+      <li><a href="#1"><i class="bi bi-card-checklist"></i>ارشیو انبار مواد اولیه</a></li>
+      <li><a href="#1"><i class="bi bi-files"></i>افزودن انبار جدید</a></li>
+      <li><a href="#1"><i class="bi bi-person-rolodex"></i>مشاهده وضعیت همکاران</a></li>
+      <li><a href="#1"><span class="ss-badge">!</span> <i class="bi bi-chat-dots"></i> ارسال پیام به همکاران</a></li>
+      <li><a href="#1"><i class="fas fa-sign-in-alt"></i>خروج از انبار</a></li>
+    </ul>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/menu aside/jquery.ss.menu.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $(".ss-menu").ssMenu();
+
+    });
+
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-1VDDWMRSTH');
+  </script>
+  <script>
+    try {
+      fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+        return true;
+      }).catch(function (e) {
+        var carbonScript = document.createElement("script");
+        carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+        carbonScript.id = "_carbonads_js";
+        document.getElementById("carbon-block").appendChild(carbonScript);
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  </script>
+</body>
+
+</html>
