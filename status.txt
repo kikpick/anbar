@@ -1,0 +1,39 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    anbar/add kala/addkala.html
+	deleted:    anbar/add mavad/addmavad.html
+	deleted:    anbar/anbar kala/anbarkala.html
+	deleted:    anbar/anbar mavad/anbarmavad.html
+	deleted:    anbar/dachbord/dashbord.html
+	deleted:    anbar/karbaran/karbaran.html
+	deleted:    anbar/menu aside/jquery.ss.menu.js
+	deleted:    anbar/menu aside/menuaside.html
+	deleted:    anbar/style/addkala.css
+	deleted:    anbar/style/addmavad.css
+	deleted:    anbar/style/anbarkala.css
+	deleted:    anbar/style/anbarmavad.css
+	deleted:    anbar/style/dachbord.css
+	deleted:    anbar/style/karbaran.css
+	deleted:    anbar/style/ss-menu.css
+	deleted:    anbar/style/style.css
+	deleted:    anbar/style/vorod.css
+	deleted:    anbar/vorod/vorod.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	add kala/
+	add mavad/
+	anbar kala/
+	anbar mavad/
+	dachbord/
+	karbaran/
+	menu aside/
+	status.txt
+	style/
+	vorod/
+
+no changes added to commit (use "git add" and/or "git commit -a")
